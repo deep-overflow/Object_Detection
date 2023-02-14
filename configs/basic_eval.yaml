@@ -1,0 +1,12 @@
+model:
+  name: UNet
+  n_classes: 20
+dataset:
+  name: VOCSegmentationDataLoader
+  root: data
+  year: "2012"
+  download: True
+  batch_size: 4
+n_samples:
+  train: 10
+  eval: 10
